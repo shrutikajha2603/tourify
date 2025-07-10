@@ -15,7 +15,7 @@ const eslintConfig = [
 
   // ✅ Add an override to ignore Prisma generated files
   {
-    files: ["app/generated/prisma/**"],
+    files: ["app/generated/**"],
     rules: {
       "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-explicit-any": "off",
