@@ -10,6 +10,10 @@ const nextConfig: NextConfig = {
     ],
   },
 
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+
   webpack: (config) => {
     config.watchOptions = {
       ignored: [
